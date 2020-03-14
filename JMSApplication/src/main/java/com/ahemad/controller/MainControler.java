@@ -21,7 +21,7 @@ public class MainControler {
 	 * Welcome USER
 	 *
 	 ***/
-	@RequestMapping(value = "index")
+	@RequestMapping(value = "login")
 	public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
 		ModelAndView modelAndView = new ModelAndView("welcome");
 		return modelAndView;
