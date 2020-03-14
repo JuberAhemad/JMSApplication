@@ -47,11 +47,13 @@
 								<button type="submit" value="submit" class="btn btn-primary btn-block">Submit</button>
 							</div>
 							
+						</div>
+					</form>
+					<div class="form-group  justify-content-md-center">					
 							<div class="col-xs-12">
 								<a href="welcome" class="btn btn-primary btn-block">Say Hello</a>
 							</div>
 						</div>
-					</form>
 				</div>
 			</div>
 		</div>

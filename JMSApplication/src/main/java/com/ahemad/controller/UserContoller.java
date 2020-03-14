@@ -20,7 +20,7 @@ public class UserContoller {
 	 * Welcome USER
 	 *
 	 ***/
-	@RequestMapping(value = "login")
+	@RequestMapping(value = "welcome")
 	public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
 		ModelAndView modelAndView = new ModelAndView("welcome");
 		return modelAndView;
