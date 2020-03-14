@@ -13,18 +13,6 @@ import com.ahemad.service.UserService;
 @Controller
 public class MainControler {
 	
-	@Autowired
-	UserService userService;
 
-	/***
-	 * 
-	 * Welcome USER
-	 *
-	 ***/
-	@RequestMapping(value = "login")
-	public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView modelAndView = new ModelAndView("welcome");
-		return modelAndView;
-	}
 
 }
