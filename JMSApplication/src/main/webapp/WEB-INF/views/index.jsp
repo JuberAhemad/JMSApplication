@@ -40,7 +40,7 @@
 				</form>
 				<div class="form-group  justify-content-md-center">
 					<div class="col-xs-12">
-						<a href="welcome" class="btn btn-primary btn-block">Say Hello</a>
+						<a href="getConnection" class="btn btn-primary btn-block">Say Hello</a>
 					</div>
 				</div>
 			</div>
