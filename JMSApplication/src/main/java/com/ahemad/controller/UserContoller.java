@@ -22,7 +22,7 @@ public class UserContoller {
 	 ***/
 	@RequestMapping(value = "/")
 	public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView modelAndView = new ModelAndView("welcome");
+		ModelAndView modelAndView = new ModelAndView("index");
 		return modelAndView;
 	}
 }
