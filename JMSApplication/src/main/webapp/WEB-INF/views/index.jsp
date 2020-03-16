@@ -1,9 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 <%-- <jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include> --%>
-
 <div class="container-fluid" style="background: yellowGreen;">
 	<div class="row justify-content-md-center">
 
@@ -35,7 +33,6 @@
 							<button type="submit" value="submit"
 								class="btn btn-primary btn-block">Submit</button>
 						</div>
-
 					</div>
 				</form>
 				<div class="form-group  justify-content-md-center">
@@ -47,7 +44,6 @@
 		</div>
 	</div>
 </div>
-
 <jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 
 
