@@ -6,7 +6,7 @@
 	<div class="row justify-content-md-center">
 
 		<div class="card"
-			style="margin-top: 8em; margin-bottom: 8em; padding: 2em;">
+			style="margin-top: 5em; margin-bottom: 5.5em; padding: 2em;">
 
 			<div class="card-body">
 				<div style="margin-left: 60px; margin-bottom: 20px">
