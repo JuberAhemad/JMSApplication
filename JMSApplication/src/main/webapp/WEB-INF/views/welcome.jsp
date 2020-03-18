@@ -1,8 +1,8 @@
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
 
-<jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include>
-<div class="container-fluid" style="">
 
+<div class="container-fluid" style="">
+<jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include>
 <%-- 	<div class="row">
 		<div class="col-md-3">
 			<jsp:include page="/WEB-INF/views/left_menu.jsp"></jsp:include>
