@@ -14,14 +14,14 @@
 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav">
 
-			<li class="nav-item active"><a class="nav-link" href="#">Home
+			<!-- <li class="nav-item active"><a class="nav-link" href="#">Home
 					<span class="sr-only">(current)</span>
 			</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">Features</a></li>
 			<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
 
-			<!-- This menu is hidden in bigger devices with d-sm-none. 
-           The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
+			This menu is hidden in bigger devices with d-sm-none. 
+           The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens 
 			<li class="nav-item dropdown d-sm-block d-md-none"><a
 				class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu"
 				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -31,7 +31,7 @@
 						class="dropdown-item" href="#">Profile</a> <a
 						class="dropdown-item" href="#">Tasks</a> <a class="dropdown-item"
 						href="#">Etc ...</a>
-				</div></li>
+				</div></li> -->
 			<!-- Smaller devices menu END -->
 
 		</ul>
