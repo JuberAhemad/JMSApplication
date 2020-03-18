@@ -1,70 +1,71 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-      <title>Bootstrap Example</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel='stylesheet'
-	href='<c:url value="/resources/css/style.css" />'
-	type='text/css' media='all' />
-	<script src="<c:url value="/resources/js/javascript.js" />"></script>
-    </head>
-    
-    <body>
-        <div class="content">
-			<div class="colors">
-				<a class="default" href="javascript:void(0)"></a>
-				<a class="blue" href="javascript:void(0)"></a>
-				<a class="green" href="javascript:void(0)"></a>
-				<a class="red" href="javascript:void(0)"></a>
-				<a class="white" href="javascript:void(0)"></a>
-				<a class="black" href="javascript:void(0)"></a>
-			</div>
-			<div id="jquery-accordion-menu" class="jquery-accordion-menu">
-				<div class="jquery-accordion-menu-header">Header </div>
-				<ul>
-					<li class="active"><a href="#"><i class="fa fa-home"></i>Home </a></li>
-					<li><a href="#"><i class="fa fa-glass"></i>Events </a></li>
-					<li><a href="#"><i class="fa fa-file-image-o"></i>Gallery </a><span class="jquery-accordion-menu-label">12 </span></li>
-					<li><a href="#"><i class="fa fa-cog"></i>Services </a>
-						<ul class="submenu">
-							<li><a href="#">
-							Web Design </a></li>
-							<li><a href="#">Hosting </a></li>
-							<li><a href="#">Design </a>
-								<ul class="submenu">
-									<li><a href="#">Graphics </a></li>
-									<li><a href="#">Vectors </a></li>
-									<li><a href="#">Photoshop </a></li>
-									<li><a href="#">Fonts </a></li>
-								</ul>
-							</li>
-							<li><a href="#">Consulting </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="fa fa-newspaper-o"></i>News </a></li>
-					<li><a href="#"><i class="fa fa-suitcase"></i>Portfolio </a>
-						<ul class="submenu">
-							<li><a href="#">Web Design </a></li>
-							<li><a href="#">Graphics </a><span class="jquery-accordion-menu-label">10 </span></li>
-							<li><a href="#">Photoshop </a></li>
-							<li><a href="#">Programming </a></li>
-						</ul>
-					</li>
-					<li><a href="#"><i class="fa fa-user"></i>About </a></li>
-					<li><a href="#"><i class="fa fa-envelope"></i>Contact </a></li>
-				</ul>
-				<div class="jquery-accordion-menu-footer">Footer </div>
-			</div>
-		</div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-   
-    </body>
-</html>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" rel="stylesheet">
+
+<div class="nav-side-menu">
+    <div class="brand">Brand Logo</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="#">
+                  <i class="fas fa-tachometer-alt fa-lg"></i> Dashboard
+                  </a>
+                </li>
+
+                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                  <a href="#"><i class="fab fa-studiovinari fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+                    <li class="active"><a href="#">CSS3 Animation</a></li>
+                    <li><a href="#">General</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Tabs & Accordions</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">FontAwesome</a></li>
+                    <li><a href="#">Slider</a></li>
+                    <li><a href="#">Panels</a></li>
+                    <li><a href="#">Widgets</a></li>
+                    <li><a href="#">Bootstrap Model</a></li>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                  <a href="#"><i class="fab fa-fort-awesome-alt fa-lg"></i> Services <span class="arrow"></span></a>
+                </li>  
+                <ul class="sub-menu collapse" id="service">
+                  <li>New Service 1</li>
+                  <li>New Service 2</li>
+                  <li>New Service 3</li>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                  <a href="#"><i class="fab fa-pagelines fa-lg"></i> New <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="new">
+                  <li>New New 1</li>
+                  <li>New New 2</li>
+                  <li>New New 3</li>
+                </ul>
+
+
+                 <li>
+                  <a href="#">
+                  <i class="fas fa-user-tie fa-lg"></i> Profile
+                  </a>
+                  </li>
+
+                 <li>
+                  <a href="#">
+                  <i class="fa fa-users fa-lg"></i> Users
+                  </a>
+                </li>
+            </ul>
+     </div>
+</div>
