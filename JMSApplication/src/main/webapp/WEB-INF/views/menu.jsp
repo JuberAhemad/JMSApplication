@@ -4,11 +4,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="#">
-    <img src="/resources/images/logo.jpg"  class="d-inline-block align-top" alt="">
+    <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     <span class="menu-collapsed">My Bar</span>
   </a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
+    
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -45,9 +46,12 @@
         <!-- Bootstrap List Group -->
         <ul class="list-group">
             <!-- Separator with title -->
-            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
-                <small>MAIN MENU</small>
+            <li class="list-group-item logo-separator d-flex justify-content-center">
+                <img src="/resources/images/logo.jpg" width="30" height="30" />    
             </li>
+           <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                <small>MAIN MENU</small>
+            </li> 
             <!-- /END Separator -->
             <!-- Menu with submenu -->
             <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
