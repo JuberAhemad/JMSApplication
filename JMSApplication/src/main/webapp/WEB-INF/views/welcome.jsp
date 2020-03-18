@@ -1,7 +1,7 @@
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
-<%-- <jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include> --%>
 
-<div class="container" style="margin-top:20px;">
+<jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include>
+<div class="container-fluid" style="">
 
 	<div class="row">
 		<div class="col-md-3">
