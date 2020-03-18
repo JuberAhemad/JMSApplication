@@ -1,5 +1,5 @@
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
- <jsp:include page="/WEB-INF/views/menu_left.jsp"></jsp:include>
+<%-- <jsp:include page="/WEB-INF/views/menu.jsp"></jsp:include> --%>
 
 <div class="container" style="margin-top:20px;">
 
