@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<div class="container-fluid" style="background: #000;">
+<div class="container-fluid" style="background: #000;margin-top:20px;">
 	<div class="row">
 		<div class="col-md-12">
 			<p style="color: #fff; padding: 10px 0 0 0; text-align: center;">Copyright@2019
