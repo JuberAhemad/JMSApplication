@@ -59,7 +59,7 @@ public class UserContoller {
 			e.printStackTrace();
 		}
 
-		ModelAndView mav = new ModelAndView("welcome");
+		ModelAndView mav = new ModelAndView("user_info");
 		return mav;
 	}
 }
